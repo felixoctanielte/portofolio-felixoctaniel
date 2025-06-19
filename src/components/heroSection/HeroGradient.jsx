@@ -6,8 +6,6 @@ const HeroGradient = () => {
       <div className="  shadow-orangeMediumShadow absolute top-0 right-0 -z-10 animate-pulse"></div>
       <div className="  shadow-orangeMediumShadow absolute top-[10%] left-0 -z-10 opacity-50 "></div>
     </div>
-    <div>
-    </div>
   );
 };
 
