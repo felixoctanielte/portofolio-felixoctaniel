@@ -25,20 +25,22 @@ export default {
       lightGrey: "#8a938e",
       darkGrey: "#3f4441",
        */
-      brown: "#53423e",
-      lightBrown: "#645550",
-      darkBrown: "#2c2523",
-      black: "#1e1917",
+      brown: "",
+      lightBrown: "#ffff",
+      darkBrown: "#0E2148",
+      black: "#0E2148",
       white: "#f1e1d9",
       cyan: "#15d1e9",
       lightCyan: "#88e5f0",
       darkCyan: "#009fb3",
-      orange: "#fb9718",
+      orange: "#fb9718", //sisi
       lightOrange: "#fac27b",
-      darkOrange: "#d28422",
+      darkOrange: "#0E2148",
       grey: "#626965",
       lightGrey: "#978580",
       darkGrey: "#3f4441",
+      beige: "#E3D095",
+      navy: "#2d2421",
     },
     extend: {
       boxShadow: {

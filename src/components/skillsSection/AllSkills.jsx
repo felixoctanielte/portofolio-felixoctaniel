@@ -2,11 +2,15 @@ import SingleSkill from "./SingleSkill";
 import { FaHtml5 } from "react-icons/fa";
 import { FaCss3Alt } from "react-icons/fa";
 import { IoLogoJavascript } from "react-icons/io";
-import { SiTypescript } from "react-icons/si";
+import { FaPhp } from "react-icons/fa";
 import { FaReact } from "react-icons/fa";
-import { SiRedux } from "react-icons/si";
-import { SiNextdotjs } from "react-icons/si";
+import { FaLaravel } from "react-icons/fa";
+//import { SiExpress } from "react-icons/si";
 import { RiTailwindCssFill } from "react-icons/ri";
+import { FaRust } from "react-icons/fa";
+import { FaDatabase } from "react-icons/fa";
+import { FaJava } from  "react-icons/fa";
+import { FaNodeJs } from "react-icons/fa";
 import { motion } from "framer-motion";
 import { fadeIn } from "../../framerMotion/variants";
 
@@ -24,24 +28,40 @@ const skills = [
     icon: IoLogoJavascript,
   },
   {
-    skill: "TypeScript",
-    icon: SiTypescript,
+    skill: "PHP",
+    icon: FaPhp,
   },
   {
     skill: "ReactJS",
     icon: FaReact,
   },
   {
-    skill: "Redux",
-    icon: SiRedux,
+    skill: "Laravel",
+    icon: FaLaravel,
   },
   {
-    skill: "NextJS",
-    icon: SiNextdotjs,
+    skill: "NodeJs",
+    icon: FaNodeJs,
   },
+ // {
+   // skill: "Express.js",
+   // icon: SiExpress,
+ // },
   {
     skill: "TailwindCSS",
     icon: RiTailwindCssFill,
+  },
+  {
+    skill: "Rust",
+    icon: FaRust,
+  },
+  {
+    skill: "MongoDB",
+    icon: FaDatabase,
+  },
+  {
+    skill: "Java",
+    icon: FaJava,
   },
 ];
 

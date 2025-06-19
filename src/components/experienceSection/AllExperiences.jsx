@@ -5,41 +5,38 @@ import { fadeIn } from "../../framerMotion/variants";
 
 const experiences = [
   {
-    job: "Front-End Developer",
-    company: "Alex Apps",
-    date: "2022 - Present",
+    job: "Game Programming Instructor",
+    company: "Game Development Club",
+    date: "2024 -2025",
     responsibilities: [
-      "Implementing reusable components.",
-      "Participating in large scale application.",
-      "Working on the performance of web applications.",
-      "Generating new ideas for better user experience.",
+      "Taught basic and intermediate game development using Unity and C#.",
+      "Guided students in creating 2D and 3D game projects from concept to prototype.",
     ],
   },
   {
-    job: "Course Instructor",
-    company: "Nucamp",
-    date: "2023 - Present",
+    job: "Coordinator Website",
+    company: "Starlight UMN 2025",
+    date: "2025 - Present",
     responsibilities: [
-      "Explaining and facilitating web development concepts.",
-      "Help students with their assignments and grade them weekly.",
-      "Provide support for students through their learning journey.",
+      "Designed and developed a full-stack web application using Php, JavaScript, and MongoDB.",
+      "Implemented RESTful APIs for data retrieval and manipulation.",
     ],
   },
   {
-    job: "Course Instructor",
-    company: "Sprints",
-    date: "2024 - Present",
+    job: "Laboratory Assistant",
+    company: "Universitas Multimedia Nusantara",
+    date: "2025 - Present",
     responsibilities: [
-      "Teaching JavaScript, React and TailwindCSS.",
-      "Participating in preparing course materials.",
-      "Helping students through their way in learning web development technologies.",
+      "Assisted students with lab equipment and practice sessions.",
+      "Maintained laboratory tools and materials in good condition.",
+      "Supported lecturers in preparing practical activities.",
     ],
   },
 ];
 
 const AllExperiences = () => {
   return (
-    <div className="flex md:flex-row sm:flex-col items-center justify-between">
+    <div className="flex fle md:flex-row sm:flex-col items-center justify-between">
       {experiences.map((experience, index) => {
         return (
           <>

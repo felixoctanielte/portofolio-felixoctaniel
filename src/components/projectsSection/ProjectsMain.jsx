@@ -5,31 +5,31 @@ import { fadeIn } from "../../framerMotion/variants";
 
 const projects = [
   {
-    name: "Vacation of Africa",
-    year: "Mar2022",
+    name: "Travel Website",
+    year: "May 2024",
     align: "right",
-    image: "../../public/images/website-img-1.jpg",
-    link: "#",
+    image: "../../public/images/pariwisata.png",
+    link: "https://web-pariwisata-umber.vercel.app",
   },
   {
-    name: "Moola App",
-    year: "Sept2022",
+    name: "Event Halloween",
+    year: "October 2024",
     align: "left",
-    image: "../../public/images/website-img-2.webp",
+    image: "../../public/images/web-hallowen.png",
     link: "#",
   },
   {
-    name: "Tourzania",
-    year: "Jan2023",
+    name: "TRY ON",
+    year: "May 2025",
     align: "right",
-    image: "../../public/images/website-img-3.jpg",
-    link: "#",
+    image: "../../public/images/tryon.png",
+    link: "https://tryon-nine.vercel.app/",
   },
   {
-    name: "Bank of Luck",
-    year: "May2024",
+    name: "Website Starlight",
+    year: "2025 - present",
     align: "left",
-    image: "../../public/images/website-img-4.jpg",
+    image: "../../public/images/starlight.png",
     link: "#",
   },
 ];
@@ -54,6 +54,7 @@ const ProjectsMain = () => {
               year={project.year}
               align={project.align}
               image={project.image}
+              link={project.link}
             />
           );
         })}

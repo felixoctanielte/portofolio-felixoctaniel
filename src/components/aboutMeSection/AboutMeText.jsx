@@ -5,15 +5,16 @@ const AboutMeText = () => {
     <div className="flex flex-col md:items-start sm:items-center md:text-left sm:text-center">
       <h2 className="text-6xl text-cyan mb-10">About Me</h2>
       <p>
-        I’m Abdelrahman, a web developer instructor with a passion for teaching
-        and coding. I specialize in React and front-end development, helping
-        students build real-world projects and master modern web technologies. I
-        also run a YouTube channel, CodeNest, where I create tutorials and
-        courses to guide aspiring developers in their journey toward successful
-        careers in tech. Outside of coding, I enjoy continuous learning and
-        sharing knowledge to inspire others to achieve their goals.
+        Hello, my name is Felix. I am a 2nd-year Informatics student at
+        Multimedia Nusantara University with a strong interest in data analysis
+        and artificial intelligence. With a background in programming and
+        algorithmic thinking, I focus on developing solutions that are not only
+        functional but also intelligent and adaptable to real-world needs. For
+        me, AI is not just a technology, but a transformative tool that reshapes
+        how we understand, process, and utilize information efficiently in this
+        ever-evolving digital era.
       </p>
-      <button className="border border-orange rounded-full py-2 px-4 text-lg flex gap-2 items-center mt-10 hover:bg-orange transition-all duration-500 cursor-pointer md:self-start sm:self-center">
+      <button className="border border-beige rounded-full py-2 px-4 text-lg flex gap-2 items-center mt-10 hover:bg-beige transition-all duration-500 cursor-pointer md:self-start sm:self-center">
         <Link
           spy={true}
           smooth={true}

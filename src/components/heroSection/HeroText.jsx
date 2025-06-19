@@ -11,17 +11,22 @@ const HeroText = () => {
         viewport={{ once: false, amount: 0 }}
         className="lg:text-2xl sm:text-xl  uppercase text-lightGrey "
       >
-        Front-End Web Developer
+        Full Stack Developer
       </motion.h2>
       <motion.h1
         variants={fadeIn("right", 0.4)}
         initial="hidden"
         whileInView="show"
         viewport={{ once: false, amount: 0 }}
-        className="md:text-[2.8rem] lg:text-6xl sm:text-4xl text-orange font-bold uppercase"
+        className="md:text-[2.8rem] lg:text-6xl sm:text-4xl font-bold uppercase text-cyan-400"
+        style={{
+          textShadow:
+            "0 0 10px rgba(0, 255, 255, 0.7), 0 0 20px rgba(0, 255, 255, 0.5)",
+        }}
       >
-        Abdelrahman <br className="sm:hidden md:block" />
-        Qassem
+        Felix Octaniel
+        <br className="sm:hidden md:block" />
+        
       </motion.h1>
       <motion.p
         variants={fadeIn("up", 0.6)}
@@ -30,7 +35,7 @@ const HeroText = () => {
         viewport={{ once: false, amount: 0 }}
         className="text-lg mt-4"
       >
-        A Passionate Web Developer and Instructor <br /> with 3 years of
+        A Passionate Web Developer and Instructor <br /> with 1 years of
         experience.
       </motion.p>
     </div>

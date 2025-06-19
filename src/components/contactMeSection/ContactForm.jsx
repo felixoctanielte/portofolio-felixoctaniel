@@ -19,8 +19,8 @@ const ContactForm = () => {
   const sendEmail = (e) => {
     e.preventDefault();
     emailjs
-      .sendForm("service_ko3hmpt", "template_ahbmmqd", form.current, {
-        publicKey: "I6HAT5mUZH7WHabGE",
+      .sendForm("service_6vqp3k9", "template_12434gi", form.current, {
+        publicKey: "FWWiiBIASrhVL0_aR",
       })
       .then(
         () => {
@@ -44,7 +44,7 @@ const ContactForm = () => {
           name="from_name"
           placeholder="Your Name"
           required
-          className="h-12 rounded-lg bg-lightBrown px-2"
+          className="h-12 rounded-lg bg-lightBrown text-navy px-2"
           value={name}
           onChange={handleName}
         />
@@ -53,7 +53,7 @@ const ContactForm = () => {
           name="from_email"
           placeholder="Your Email"
           required
-          className="h-12 rounded-lg bg-lightBrown px-2"
+          className="h-12 rounded-lg bg-lightBrown text-navy   px-2"
           value={email}
           onChange={handleEmail}
         />
@@ -64,7 +64,7 @@ const ContactForm = () => {
           cols="50"
           placeholder="Message"
           required
-          className=" rounded-lg bg-lightBrown p-2"
+          className=" rounded-lg bg-lightBrown text-navy  p-2"
           value={message}
           onChange={handleMessage}
         />
