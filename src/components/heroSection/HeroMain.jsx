@@ -9,8 +9,6 @@ const HeroMain = () => {
         <HeroPic />
       </div>
     </div>
-    <div>
-    </div>
   );
 };
 
